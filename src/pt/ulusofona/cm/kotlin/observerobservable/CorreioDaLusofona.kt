@@ -11,9 +11,12 @@ class CorreioDaLusofona {
     }
 
 
-    get() = field        // getter
+    get()
+    {
+        return  maxLeitores;
+    }       // getter
     set(value) {         // setter
-        field = value
+        maxLeitores = value
     }
 
 fun adicionarLeitor(leitorAdicionar:OnNumeroListener){
