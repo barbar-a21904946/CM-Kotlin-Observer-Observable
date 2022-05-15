@@ -5,7 +5,7 @@ class CorreioDaLusofona {
   private  val listaNoticias List<Noticia>;
     private val listaOnNoticiaListener List<OnNoticiaListener>;
 
-    constructor(maxLeitores: String, listaNoticias: Boolean) {
+    constructor(maxLeitores: Int, listaNoticias: Boolean) {
         this.maxLeitores = maxLeitores
         this.listaNoticias = listaNoticias
     }
