@@ -5,7 +5,7 @@ class Noticia {
     val corpo: String;
 
 
-    constructor(nome: String, corpo: Boolean) {
+    constructor(nome: String, corpo: String) {
         this.titulo = titulo
         this.corpo = corpo
     }
