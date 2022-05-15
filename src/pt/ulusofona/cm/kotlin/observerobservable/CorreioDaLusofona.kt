@@ -9,6 +9,13 @@ class CorreioDaLusofona {
         this.maxLeitores = maxLeitores
         this.listaNoticias = listaNoticias
     }
+
+
+    get() = field        // getter
+    set(value) {         // setter
+        field = value
+    }
+
 fun adicionarLeitor(leitorAdicionar:OnNumeroListener){
 
 }
